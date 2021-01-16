@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF--8">
+	<title>My Portfolio</title>
+	<style>
+		.main {
+		text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+<div class="main">
+
+<img src="C:\Users\Malika\Pictures\favs\IMG_3295.JPG" alt=" PHOTO"
+height="250"
+width="250">
+<h2> Malika Shrestha</h2>
+<p> I am strongly focused, with the ability to  complete tasks accurately in fast paced environment with conflicting deadlines. </p>
+
+</div>
+<script>
+	fetch("https://api.github.com/users/shresthamalika")
+	.then(response => response.json{})
+	.then (function(data) {
+		console.log(data)
+	})
+</script>
+</body>
+</html>
